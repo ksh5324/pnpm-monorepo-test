@@ -1,6 +1,6 @@
 {
   "name": "@ksh5324/pnpm-test",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "sideEffects": false,
   "description": "",
   "source": "./src/index.ts",
@@ -21,7 +21,9 @@
   },
   "scripts": {
     "prepack": "rm -rf lib && pnpm build",
-    "build": "nanobundle build"
+    "build": "nanobundle build",
+    "ci:publish": "pnpm publish -r",
+    "ci:version": "pnpm changeset version"
   },
   "keywords": [],
   "author": "",
