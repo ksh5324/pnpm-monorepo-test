@@ -8,6 +8,11 @@
   "publishConfig": {
     "access": "public"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ksh5324/pnpm-monorepo-test.git",
+    "directory": "packages/test"
+  },
   "files": [
     "src",
     "lib"

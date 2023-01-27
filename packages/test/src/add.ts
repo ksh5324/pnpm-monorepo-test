@@ -1,1 +1,1 @@
-export const add = (a: number, b: number) => a + b + a + 2;
+export const add = (a: number, b: number) => a + b + a + 3;
