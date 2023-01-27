@@ -1,6 +1,6 @@
 {
   "name": "@ksh5324/pnpm-test",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "sideEffects": false,
   "description": "",
   "source": "./src/index.ts",
