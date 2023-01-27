@@ -22,7 +22,7 @@
   "scripts": {
     "prepack": "rm -rf lib && pnpm build",
     "build": "nanobundle build",
-    "ci:publish": "pnpm publish -r",
+    "ci:publish": "pnpm publish -r --no-git-checks",
     "ci:version": "pnpm changeset version"
   },
   "keywords": [],
