@@ -1,0 +1,32 @@
+{
+  "name": "@ksh5324/pnpm-test",
+  "version": "1.0.0",
+  "sideEffects": false,
+  "description": "",
+  "source": "./src/index.ts",
+  "types": "./lib/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "src",
+    "lib"
+  ],
+  "exports": {
+    ".": {
+      "require": "./lib/index.cjs",
+      "import": "./lib/index.mjs"
+    },
+    "./package.json": "./package.json"
+  },
+  "scripts": {
+    "prepack": "rm -rf lib && pnpm build",
+    "build": "nanobundle build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "nanobundle": "^0.0.27"
+  }
+}
