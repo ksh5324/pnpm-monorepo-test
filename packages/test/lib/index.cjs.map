@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../src/index.ts", "../src/add.ts"],
+  "sourcesContent": ["export * from \"./add\";\n", "export const add = (a: number, b: number) => a + b;\n"],
+  "mappings": "4ZAAA,IAAAA,EAAA,GAAAC,EAAAD,EAAA,SAAAE,IAAA,eAAAC,EAAAH,GCAO,IAAMI,EAAM,CAACC,EAAWC,IAAcD,EAAIC",
+  "names": ["src_exports", "__export", "add", "__toCommonJS", "add", "a", "b"]
+}

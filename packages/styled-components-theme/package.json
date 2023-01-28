@@ -1,0 +1,48 @@
+{
+  "name": "@ksh5324/test-ui-styled-theme",
+  "version": "1.0.1",
+  "sideEffects": false,
+  "description": "",
+  "source": "./src/index.ts",
+  "types": "./lib/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ksh5324/pnpm-monorepo-test.git",
+    "directory": "packages/styled-components-theme"
+  },
+  "files": [
+    "src",
+    "lib"
+  ],
+  "exports": {
+    ".": {
+      "require": "./lib/index.cjs",
+      "import": "./lib/index.mjs"
+    },
+    "./package.json": "./package.json"
+  },
+  "scripts": {
+    "prepack": "rm -rf lib && pnpm build",
+    "build": "nanobundle build",
+    "ci:publish": "pnpm publish -r --no-git-checks",
+    "ci:version": "pnpm changeset version"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@ksh5324/test-ui-token": "workspace:*",
+    "nanobundle": "^0.0.27"
+  },
+  "dependencies": {
+    "@types/react": "^18.0.27",
+    "@types/styled-components": "^5.1.26",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-is": "^18.2.0",
+    "styled-components": "^5.3.6"
+  }
+}
