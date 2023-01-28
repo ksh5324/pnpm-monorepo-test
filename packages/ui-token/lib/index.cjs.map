@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../src/index.ts", "../src/colors/index.ts", "../src/colors/colors.ts"],
+  "sourcesContent": ["export * as colors from \"./colors\";\nexport * from \"./colors/types\";\n", "export * from \"./colors\";\n", "import { AllOfColorToken } from \"./types\";\n\nexport const lightToken: AllOfColorToken = {\n  gray200: \"#EAEBEE\",\n  gray300: \"#DCDEE3\",\n  gray400: \"#D1D3D8\",\n  gray500: \"#ADB1BA\",\n  gray600: \"#868B94\",\n  gray700: \"#4D5159\",\n  gray900: \"#212124\",\n};\n\nexport const darkToken: AllOfColorToken = {\n  gray200: \"#212124\",\n  gray300: \"#4D5159\",\n  gray400: \"#868B94\",\n  gray500: \"#ADB1BA\",\n  gray600: \"#D1D3D8\",\n  gray700: \"#DCDEE3\",\n  gray900: \"#EAEBEE\",\n};\n"],
+  "mappings": "4ZAAA,IAAAA,EAAA,GAAAC,EAAAD,EAAA,YAAAE,IAAA,eAAAC,EAAAH,GCAA,IAAAI,EAAA,GAAAC,EAAAD,EAAA,eAAAE,EAAA,eAAAC,ICEO,IAAMC,EAA8B,CACzC,QAAS,UACT,QAAS,UACT,QAAS,UACT,QAAS,UACT,QAAS,UACT,QAAS,UACT,QAAS,SACX,EAEaC,EAA6B,CACxC,QAAS,UACT,QAAS,UACT,QAAS,UACT,QAAS,UACT,QAAS,UACT,QAAS,UACT,QAAS,SACX",
+  "names": ["src_exports", "__export", "colors_exports", "__toCommonJS", "colors_exports", "__export", "darkToken", "lightToken", "lightToken", "darkToken"]
+}

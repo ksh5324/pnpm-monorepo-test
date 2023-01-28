@@ -1,6 +1,6 @@
 {
-  "name": "@ksh5324/pnpm-test",
-  "version": "1.0.4",
+  "name": "@ksh5324/test-ui-token",
+  "version": "1.0.1",
   "sideEffects": false,
   "description": "",
   "source": "./src/index.ts",
@@ -11,7 +11,7 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ksh5324/pnpm-monorepo-test.git",
-    "directory": "packages/test"
+    "directory": "packages/ui-token"
   },
   "files": [
     "src",

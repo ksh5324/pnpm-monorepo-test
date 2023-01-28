@@ -26,6 +26,12 @@ importers:
     devDependencies:
       nanobundle: 0.0.27
 
+  packages/ui-token:
+    specifiers:
+      nanobundle: ^0.0.27
+    devDependencies:
+      nanobundle: 0.0.27
+
 packages:
 
   /@babel/code-frame/7.18.6:
