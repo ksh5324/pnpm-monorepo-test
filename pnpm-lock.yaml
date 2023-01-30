@@ -20,14 +20,6 @@ importers:
       typescript: 4.9.4
       ultra-runner: 3.10.5
 
-  packages/styled-comonents-theme:
-    specifiers:
-      '@ksh5324/test-ui-token': workspace:*
-      nanobundle: ^0.0.27
-    devDependencies:
-      '@ksh5324/test-ui-token': link:../ui-token
-      nanobundle: 0.0.27
-
   packages/styled-components-theme:
     specifiers:
       '@ksh5324/test-ui-token': workspace:*
